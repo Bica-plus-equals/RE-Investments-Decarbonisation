@@ -14,6 +14,7 @@ Some parameter approximations are made using generative AI to estimate OPEX perc
 ### ROI forecasting
 A DCF (discounted cash flow) model is used to generate a Return of Investment timeline by technology. 
 <img width="621" height="485" alt="ROI Plot 1" src="https://github.com/user-attachments/assets/b6f1906c-5c52-4253-b136-bbe2504f4a28" />
+**Note** At the moment the model does not include carbon taxes, hence fossil-based resources have an overestimated ROI. 
 
 ### Marginal Abatement Cost Curve (Old version)
 The project utilizes Marginal Abatement Cost Curves (MACC) to identify the most cost-effective ways to reduce CO2 emissions. Key elements of this analysis include:
@@ -49,5 +50,3 @@ A crucial part of the project is the Monte Carlo simulation, which assesses the 
 **Probability of profitability after Monte Carlo Simulation**
 <img width="1042" height="556" alt="MC output" src="https://github.com/user-attachments/assets/b021ab9c-eddb-4fc4-b79e-ffd6333983e2" />
 
-## Results (so far)
-At the moment the model does not include carbon taxes, hence fossil-based resources have an overestimated ROI. 
