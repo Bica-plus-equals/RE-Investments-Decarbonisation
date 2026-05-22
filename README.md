@@ -1,7 +1,7 @@
 # Overview
 The core of this work involves modeling various renewable energy technologies. It uses financial data such as Capital Expenditure (CAPEX), Operational Expenditure (OPEX), project lifetime, and estimated discount rates to predict the profitability of different technologies. Additionally, it includes a sustainability assessment that considers future decarbonization pathways and policy impacts.
 
-###Note this model is currently undergoing updating to replace the data and improve accuracy. Part I of the model is the updated one. Part II is based on simulated data, and may not be representative of real behaviour. 
+**Note:** this model is currently undergoing updating to replace the data and improve accuracy. Part I of the model is the updated one. Part II is based on simulated data, and may not be representative of real behaviour. 
 
 ## Dataset
 The analysis uses IEA data on the costs of generating electricity from 2020. The dataset contains techno-economic data on different energy generation technologies. This analysis processes the excel-style formatting to extract necessary data for a simple financial analysis on broad horizons. 
@@ -13,6 +13,7 @@ Some parameter approximations are made using generative AI to estimate OPEX perc
 ## Model and Methods
 ### ROI forecasting
 A DCF (discounted cash flow) model is used to generate a Return of Investment timeline by technology. 
+![My diagram](ROI Plot1.png)
 
 ### Marginal Abatement Cost Curve (Old version)
 The project utilizes Marginal Abatement Cost Curves (MACC) to identify the most cost-effective ways to reduce CO2 emissions. Key elements of this analysis include:
