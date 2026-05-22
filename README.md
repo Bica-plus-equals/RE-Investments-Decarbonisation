@@ -47,7 +47,7 @@ A crucial part of the project is the Monte Carlo simulation, which assesses the 
 <img width="527" height="479" alt="LCOA Batteries MC" src="https://github.com/user-attachments/assets/d8a500dd-ad7c-45be-a717-56347e9233d9" />
 
 **Probability of profitability after Monte Carlo Simulation**
-<img width="1331" height="556" alt="MC output" src="https://github.com/user-attachments/assets/77678500-9b15-4787-b48a-254e942530d5" />
+<img width="1042" height="556" alt="MC output" src="https://github.com/user-attachments/assets/b021ab9c-eddb-4fc4-b79e-ffd6333983e2" />
 
 ## Results (so far)
 At the moment the model does not include carbon taxes, hence fossil-based resources have an overestimated ROI. 
