@@ -15,7 +15,6 @@ Some parameter approximations are made using generative AI to estimate OPEX perc
 A DCF (discounted cash flow) model is used to generate a Return of Investment timeline by technology. 
 <img width="621" height="485" alt="ROI Plot 1" src="https://github.com/user-attachments/assets/b6f1906c-5c52-4253-b136-bbe2504f4a28" />
 
-
 ### Marginal Abatement Cost Curve (Old version)
 The project utilizes Marginal Abatement Cost Curves (MACC) to identify the most cost-effective ways to reduce CO2 emissions. Key elements of this analysis include:
 
@@ -26,12 +25,16 @@ Segment Type: Technologies are divided into different segments based on their co
 - Cumulative Potential: The total emissions abated by combining various technology segments.
 The MACC curve visually represents the cost of abating CO2 against the cumulative abatement potential, helping to prioritize investments.
 
+<img width="1040" height="553" alt="MACC" src="https://github.com/user-attachments/assets/5d1a716d-1471-4d73-9caa-d8f8fe4037f5" />
+
+
 ### Market Influences
 The project considers dynamic market conditions that can influence ROI, such as:
 
 Carbon Price Increases: Simulating scenarios where carbon prices escalate over time.
 Dynamic CAPEX: Accounting for technology learning rates, where CAPEX decreases over time (e.g., as seen in solar PV).
 Policy Incentives: Evaluating the impact of subsidies on effective CAPEX.
+
 ### Monte Carlo Sensitivity Analysis
 A crucial part of the project is the Monte Carlo simulation, which assesses the sensitivity of profitability to uncertainties in key variables. It involves:
 
@@ -39,6 +42,10 @@ A crucial part of the project is the Monte Carlo simulation, which assesses the 
 2. Vectorized Calculations: Performing LCOA and revenue calculations for thousands of iterations.
 3. Distribution Analysis: Examining the distribution of LCOA and revenue for each technology segment.
 4. Profitability Probability: Calculating the probability of a technology being profitable (LCOA < 0) and how this probability changes under different carbon price scenarios (low, medium, high).
+
+<img width="1331" height="556" alt="MC output" src="https://github.com/user-attachments/assets/77678500-9b15-4787-b48a-254e942530d5" />
+
+<img width="527" height="479" alt="LCOA Batteries MC" src="https://github.com/user-attachments/assets/d8a500dd-ad7c-45be-a717-56347e9233d9" />
 
 
 ## Results (so far)
