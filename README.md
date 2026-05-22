@@ -13,7 +13,8 @@ Some parameter approximations are made using generative AI to estimate OPEX perc
 ## Model and Methods
 ### ROI forecasting
 A DCF (discounted cash flow) model is used to generate a Return of Investment timeline by technology. 
-![My diagram](ROI Plot1.png)
+<img width="621" height="485" alt="ROI Plot 1" src="https://github.com/user-attachments/assets/b6f1906c-5c52-4253-b136-bbe2504f4a28" />
+
 
 ### Marginal Abatement Cost Curve (Old version)
 The project utilizes Marginal Abatement Cost Curves (MACC) to identify the most cost-effective ways to reduce CO2 emissions. Key elements of this analysis include:
