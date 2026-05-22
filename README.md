@@ -4,7 +4,7 @@ The core of this work involves modeling various renewable energy technologies. I
 **Note:** this model is currently undergoing updating to replace the data and improve accuracy. Part I of the model is the updated one. Part II is based on simulated data, and may not be representative of real behaviour. 
 
 ## Dataset
-The analysis uses IEA data on the costs of generating electricity from 2020. The dataset contains techno-economic data on different energy generation technologies. This analysis processes the excel-style formatting to extract necessary data for a simple financial analysis on broad horizons. 
+The analysis uses [IEA data](https://www.iea.org/data-and-statistics/data-tools/levelised-cost-of-electricity-calculator) on the costs of generating electricity from 2020. The dataset contains techno-economic data on different energy generation technologies. This analysis processes the excel-style formatting to extract necessary data for a simple financial analysis on broad horizons. 
 The dataset mainly contains Capacity and CAPEX data. A few modelling assumptions are made to forecasting revenue from energy generation. 
 
 ## Modelling Assumptions
