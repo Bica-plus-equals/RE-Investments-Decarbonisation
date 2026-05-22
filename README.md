@@ -43,7 +43,7 @@ A crucial part of the project is the Monte Carlo simulation, which assesses the 
 3. Distribution Analysis: Examining the distribution of LCOA and revenue for each technology segment.
 4. Profitability Probability: Calculating the probability of a technology being profitable (LCOA < 0) and how this probability changes under different carbon price scenarios (low, medium, high).
 
-** Probabilistic result of Battery technology (segment type 1) under varying carbon prices**
+**Probabilistic result of Battery technology (segment type 1) under varying carbon prices**
 <img width="527" height="479" alt="LCOA Batteries MC" src="https://github.com/user-attachments/assets/d8a500dd-ad7c-45be-a717-56347e9233d9" />
 
 **Probability of profitability after Monte Carlo Simulation**
